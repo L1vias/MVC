@@ -22,7 +22,7 @@ namespace MVC.Controllers
             ListaAlunos.Add(a4);
             ListaAlunos.Add(a5);
 
-            return View();
+            return View(ListaAlunos);
         }
         public IActionResult cadastrar()
         {
